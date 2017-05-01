@@ -70,61 +70,61 @@ namespace Hiragana_Memory_Game
 
         public HiraganaGame()
         {
-            
+
             InitializeComponent();
             //The following was written by Shawn Murrish:
             //Testing Please remove
-            this.aTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.iTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.uTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.eTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.oTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.kaTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.kiTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.kuTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.keTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.koTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.saTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.shiTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.suTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.seTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.soTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.taTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.chiTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.tsuTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.teTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.toTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.naTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.niTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.nuTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.neTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.noTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.haTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.hiTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.huTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.heTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.hoTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.maTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.miTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.muTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.meTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.moTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.yaTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.yuTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.yoTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.raTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.riTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.ruTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.reTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.roTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.waTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.woTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
-            this.nTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
+            this.aTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.iTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.uTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.eTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.oTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.kaTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.kiTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.kuTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.keTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.koTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.saTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.shiTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.suTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.seTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.soTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.taTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.chiTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.tsuTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.teTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.toTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.naTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.niTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.nuTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.neTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.noTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.haTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.hiTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.huTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.heTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.hoTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.maTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.miTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.muTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.meTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.moTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.yaTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.yuTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.yoTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.raTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.riTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.ruTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.reTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.roTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.waTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.woTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
+            this.nTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox_KeyDown);
             // Made the Close button keybound to ESC by setting it
             // equal to the Cancel Button
             // Written by Brandon Miller
             this.CancelButton = closeButton;
- 
+
             //End written by Shawn Murrish.
 
             //The following was written by Irene Wang:
@@ -1834,7 +1834,7 @@ namespace Hiragana_Memory_Game
             */
         }
         #endregion -- Check Button Event --
-        // Will display the image assosciated with the first few letters of the syllabl when clicked or when the keybind is used
+        // Will display the image assosciated with the first few letters of the syllable when clicked or when the keybind is used
         #region -- Hint Button Event (written by Patrick Condon & Brandon Miller) --
         private void noHintButton_Click(object sender, EventArgs e)
         {
@@ -2078,23 +2078,24 @@ namespace Hiragana_Memory_Game
         /// <param name="e"></param>
         private void HiraganaGame_Load(object sender, EventArgs e)
         {
-           MessageBox.Show(string.Format("Welcome, {0}! Enjoy this Hiragana Memory Game.", Environment.UserName));
+            MessageBox.Show(string.Format("Welcome, {0}! Enjoy this Hiragana Memory Game.", Environment.UserName));
             // Added code below to select the first textbox of the game "noTextBox" when the form loads
             // and after the greeting message
             //Written by Brandon Miller
             noTextBox.Select();
-
-            // RichTextBox_HowToPlay.Text = "Instructions:" + Environment.NewLine;
-            // +
-            // "Enter the hiragana pronunciation in the textbox above. Click [Check] or press the <Enter> key to move on to the next question." +
-            // Environment.NewLine
-            // + "Each correct answer yields 1 point. The maximum score is 46." +
-            //  Environment.NewLine;
             // Commented out the text in the richtext box that explains the key bindings
             // Moved "keybind" display to a menu bar
             // Done by Brandon Miller
-            // + "Click [Hint] or press <CTRL+Z> to display an image corresponding to the first syllable pronunciation." + Environment.NewLine
-            // + "To restart the game from the beginning, click [Start Over] or press <CTRL+R>.";
+
+
+            /* The following code was written by Irene Wang, with revisions by Shawn Murrish.
+            RichTextBox_HowToPlay.Text = "Instructions:" + Environment.NewLine
+                + "Enter the hiragana pronunciation in the textbox above. Click [Check] or press the <Enter> key to move on to the next question." + Environment.NewLine
+            + "Each correct answer yields 1 point. The maximum score is 46." + Environment.NewLine
+            + "Click [Hint] or press <CTRL+Z> to display an image corresponding to the first syllable pronunciation." + Environment.NewLine
+            + "To restart the game from the beginning, click [Start Over] or press <CTRL+R>.";
+            */
+
         }
 
         /// <summary>
@@ -2301,19 +2302,19 @@ namespace Hiragana_Memory_Game
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void TextBox_KeyDown( object sender, KeyEventArgs e )
+        private void TextBox_KeyDown(object sender, KeyEventArgs e)
         {
             // Allows for pressing 'Enter' key while the insertion point is inside of a TextBox.
-            if( e.KeyCode == Keys.Enter )
+            if (e.KeyCode == Keys.Enter)
             {
                 // Executes the same functionality as pressing 'Check' buttons.
-                switch( ((TextBox)sender).Name )
+                switch (((TextBox)sender).Name)
                 {
                     case "aTextBox":
-                        aCheckButton_Click( this.aCheckButton, e );
+                        aCheckButton_Click(this.aCheckButton, e);
                         break;
                     case "iTextBox":
-                        iCheckButton_Click( this.iCheckButton, e );
+                        iCheckButton_Click(this.iCheckButton, e);
                         break;
                     case "uTextBox":
                         uCheckButton_Click(this.uCheckButton, e);
@@ -2456,22 +2457,22 @@ namespace Hiragana_Memory_Game
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void HiraganaGame_KeyDown( object sender, KeyEventArgs e )
+        private void HiraganaGame_KeyDown(object sender, KeyEventArgs e)
         {
-            if( ModifierKeys.HasFlag( Keys.Control ) )
+            if (ModifierKeys.HasFlag(Keys.Control))
             {
                 // Allows for pressing 'CTRL+Z' instead of pressing 'Hint' button.
                 // Note: 'CTRL+Z' was chosen as the keybind because it is easy to reach. Faster players would prefer it this way.
-                if ( e.KeyCode == Keys.Z )
+                if (e.KeyCode == Keys.Z)
                 {
                     // Executes the same functionality as pressing 'Hint' buttons.
-                    switch ( this.tabControl1.SelectedTab.Name )
+                    switch (this.tabControl1.SelectedTab.Name)
                     {
                         case "tabPage1":
-                            noHintButton_Click( this.noHintButton, e );
+                            noHintButton_Click(this.noHintButton, e);
                             break;
                         case "tabPage2":
-                            aHintButton_Click( this.aHintButton, e );
+                            aHintButton_Click(this.aHintButton, e);
                             break;
                         case "tabPage3":
                             kiHintButton_Click(this.kiHintButton, e);
@@ -2610,9 +2611,9 @@ namespace Hiragana_Memory_Game
                 // 'Start Over' button keybound to 'CTRL+R'
                 // Same functionality as 'Start Over' button
                 // Note: 'CTRL+R' was chosen as the keybind because it is far away from 'CTRL+Z' and is still easy to reach.
-                else if( e.KeyCode == Keys.R )
+                else if (e.KeyCode == Keys.R)
                 {
-                    startOverButton_Click( this.startOverButton, e );
+                    startOverButton_Click(this.startOverButton, e);
                 }
             }
         }
@@ -2628,8 +2629,8 @@ namespace Hiragana_Memory_Game
         // Written by Brandon Miller
         private void howToPlayButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(string.Format( "Instructions:" + Environment.NewLine + "Enter the hiragana pronunciation in the textbox below the image of the character."
-                + Environment.NewLine + "Each correct answer yeilds 1 point. The maximum score is 46." + Environment.NewLine
+            MessageBox.Show(string.Format("Instructions:" + Environment.NewLine + "Enter the hiragana pronunciation in the textbox below the image of the character."
+                + Environment.NewLine + "Each correct answer yields 1 point. The maximum score is 46." + Environment.NewLine
                 + "Click hint for an image corresponding to the first syllable pronunciation." + Environment.NewLine
                 + "Good Luck!!" + Environment.NewLine
                 + "" + Environment.NewLine
