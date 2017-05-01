@@ -383,7 +383,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "te" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -435,7 +435,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "shi" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -470,7 +470,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "tsu" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -505,7 +505,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "ne" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -540,7 +540,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "ho" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -575,7 +575,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "sa" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -610,7 +610,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "chi" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -645,7 +645,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "nu" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -680,7 +680,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "he" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -715,7 +715,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "mo" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -750,7 +750,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "ta" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -785,7 +785,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "ni" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -820,7 +820,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "hu" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -855,7 +855,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "me" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -890,7 +890,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "yo" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -925,7 +925,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "ke" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -960,7 +960,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "so" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -995,7 +995,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "u" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1030,7 +1030,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "yu" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1065,7 +1065,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "wa" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1100,7 +1100,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "mu" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1135,7 +1135,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "ha" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1170,7 +1170,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "ya" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1205,7 +1205,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "ri" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1240,7 +1240,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "wo character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1276,7 +1276,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "ma" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1311,7 +1311,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "ra" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1346,7 +1346,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "ru" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1381,7 +1381,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "se" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1416,7 +1416,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "o" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1451,7 +1451,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "e" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1486,7 +1486,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "ku" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1521,7 +1521,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "i" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1556,7 +1556,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "re" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1591,7 +1591,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "mi" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1626,7 +1626,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "ro" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1661,7 +1661,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "ko" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1696,7 +1696,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "to" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1731,7 +1731,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "hi" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1766,7 +1766,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "na" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1801,7 +1801,7 @@ namespace Hiragana_Memory_Game
 
         /// <summary>
         /// Button event for "Check" button, corresponding to the "n" character
-        /// Written by Irene Wang (commented-out parts written by Patrick Condon).
+        /// Written by Irene Wang (commented-out parts written by Brandon Miller).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -2067,7 +2067,7 @@ namespace Hiragana_Memory_Game
         }
         // End Written by Brandon Miller
 
-        #endregion -- Hint Button Event (written by Patrick Condon) --
+        #endregion -- Hint Button Event (written by Patrick Condon & Brandon Miller) --
 
         /// <summary>
         /// Initial load of the game with the welcome message and instructions.
@@ -2079,15 +2079,13 @@ namespace Hiragana_Memory_Game
         private void HiraganaGame_Load(object sender, EventArgs e)
         {
             MessageBox.Show(string.Format("Welcome, {0}! Enjoy this Hiragana Memory Game.", Environment.UserName));
-            // Added code below to select the first textbox of the game "noTextBox" when the form loads
-            // and after the greeting message
+            // Added code below to select the first textbox of the game "noTextBox" when the form loads and after the greeting message
             //Written by Brandon Miller
             noTextBox.Select();
-            // Commented out the text in the richtext box that explains the key bindings
-            // Moved "keybind" display to a menu bar
+            // Commented out the text in the richtext box that explains the key bindings and how to play 
+            // Moved "keybind" display to a menu strip
+            // Moved instructions into a button that displays a message
             // Done by Brandon Miller
-
-
             /* The following code was written by Irene Wang, with revisions by Shawn Murrish.
             RichTextBox_HowToPlay.Text = "Instructions:" + Environment.NewLine
                 + "Enter the hiragana pronunciation in the textbox above. Click [Check] or press the <Enter> key to move on to the next question." + Environment.NewLine
@@ -2624,7 +2622,7 @@ namespace Hiragana_Memory_Game
         {
             Close();
         }
-        // Added How To Play button back in since we removed/commented out the text going in the richtext box explaining how to play
+        // Added How To Play button back in since we removed the text going in the richtext box explaining how to play
         // Will display to the player how to play the game when clicked
         // Written by Brandon Miller
         private void howToPlayButton_Click(object sender, EventArgs e)
