@@ -217,7 +217,7 @@ namespace Hiragana_Memory_Game
                 //Transitioning to the next tab.
                 tabControl1.SelectedIndex += 1;
                 // Code below will make sure the textbox in the next tab will be selected once 
-                // the player hits the check box in the current tab they are in
+                // the player hits the check button in the current tab they are in
                 // Written by Brandon Miller
                 foreach (Control control in tabControl1.SelectedTab.Controls)
                 {
@@ -231,7 +231,8 @@ namespace Hiragana_Memory_Game
             //Otherwise displays the Finish Game message and final score, refreshing the game.
             else
             {
-                string message = String.Format("Your score is {0}/46 = {1}%", total, ((total / 46.00) * 100).ToString("F"));
+                // edited by Brandon Miller
+                string message = String.Format("Your score is {0} out of 46 = {1}%", total, ((total / 46.00) * 100).ToString("F"));
                 MessageBox.Show("You've finished the Hiragana Memory Game! " + message);
 
                 //Assigning the following (tabControl1.SelectedIndex = 0) to the Start Over Button click event.
