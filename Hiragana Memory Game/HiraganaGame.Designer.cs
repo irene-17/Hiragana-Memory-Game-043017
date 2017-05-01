@@ -315,9 +315,9 @@
             this.closeButton = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.keybindsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cRTLZHintToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cTRLZHintToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cTRLRStartOverToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eSCCloseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.howToPlayButton = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -463,7 +463,7 @@
             this.tabControl1.Controls.Add(this.tabPage44);
             this.tabControl1.Controls.Add(this.tabPage45);
             this.tabControl1.Controls.Add(this.tabPage46);
-            this.tabControl1.Location = new System.Drawing.Point(24, 219);
+            this.tabControl1.Location = new System.Drawing.Point(22, 172);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(388, 201);
@@ -3556,7 +3556,7 @@
             // 
             this.scoreLabel.AutoSize = true;
             this.scoreLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scoreLabel.Location = new System.Drawing.Point(24, 435);
+            this.scoreLabel.Location = new System.Drawing.Point(24, 377);
             this.scoreLabel.Name = "scoreLabel";
             this.scoreLabel.Size = new System.Drawing.Size(65, 24);
             this.scoreLabel.TabIndex = 63;
@@ -3568,7 +3568,7 @@
             this.RichTextBox_HowToPlay.Location = new System.Drawing.Point(24, 100);
             this.RichTextBox_HowToPlay.Name = "RichTextBox_HowToPlay";
             this.RichTextBox_HowToPlay.ReadOnly = true;
-            this.RichTextBox_HowToPlay.Size = new System.Drawing.Size(378, 103);
+            this.RichTextBox_HowToPlay.Size = new System.Drawing.Size(378, 64);
             this.RichTextBox_HowToPlay.TabIndex = 64;
             this.RichTextBox_HowToPlay.Text = "";
             // 
@@ -3576,7 +3576,7 @@
             // 
             this.Scoreboard.Enabled = false;
             this.Scoreboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Scoreboard.Location = new System.Drawing.Point(27, 467);
+            this.Scoreboard.Location = new System.Drawing.Point(28, 406);
             this.Scoreboard.Name = "Scoreboard";
             this.Scoreboard.Size = new System.Drawing.Size(57, 46);
             this.Scoreboard.TabIndex = 66;
@@ -3586,7 +3586,7 @@
             // startOverButton
             // 
             this.startOverButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.startOverButton.Location = new System.Drawing.Point(118, 440);
+            this.startOverButton.Location = new System.Drawing.Point(118, 384);
             this.startOverButton.Name = "startOverButton";
             this.startOverButton.Size = new System.Drawing.Size(105, 32);
             this.startOverButton.TabIndex = 67;
@@ -3608,7 +3608,7 @@
             // 
             this.Label_ResultMessage.AutoSize = true;
             this.Label_ResultMessage.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_ResultMessage.Location = new System.Drawing.Point(28, 142);
+            this.Label_ResultMessage.Location = new System.Drawing.Point(28, 123);
             this.Label_ResultMessage.Name = "Label_ResultMessage";
             this.Label_ResultMessage.Size = new System.Drawing.Size(49, 22);
             this.Label_ResultMessage.TabIndex = 69;
@@ -3617,7 +3617,7 @@
             // closeButton
             // 
             this.closeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.closeButton.Location = new System.Drawing.Point(291, 440);
+            this.closeButton.Location = new System.Drawing.Point(283, 384);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(105, 32);
             this.closeButton.TabIndex = 70;
@@ -3638,25 +3638,18 @@
             // menuToolStripMenuItem
             // 
             this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.keybindsToolStripMenuItem});
+            this.cTRLZHintToolStripMenuItem,
+            this.cTRLRStartOverToolStripMenuItem,
+            this.eSCCloseToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
-            this.menuToolStripMenuItem.Text = "Menu";
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.menuToolStripMenuItem.Text = "Keybinds";
             // 
-            // keybindsToolStripMenuItem
+            // cTRLZHintToolStripMenuItem
             // 
-            this.keybindsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cRTLZHintToolStripMenuItem,
-            this.cTRLRStartOverToolStripMenuItem});
-            this.keybindsToolStripMenuItem.Name = "keybindsToolStripMenuItem";
-            this.keybindsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.keybindsToolStripMenuItem.Text = "Keybinds";
-            // 
-            // cRTLZHintToolStripMenuItem
-            // 
-            this.cRTLZHintToolStripMenuItem.Name = "cRTLZHintToolStripMenuItem";
-            this.cRTLZHintToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.cRTLZHintToolStripMenuItem.Text = "CRTL + Z - Hint";
+            this.cTRLZHintToolStripMenuItem.Name = "cTRLZHintToolStripMenuItem";
+            this.cTRLZHintToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.cTRLZHintToolStripMenuItem.Text = "CTRL + Z - Hint";
             // 
             // cTRLRStartOverToolStripMenuItem
             // 
@@ -3664,10 +3657,16 @@
             this.cTRLRStartOverToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.cTRLRStartOverToolStripMenuItem.Text = "CTRL + R - Start Over";
             // 
+            // eSCCloseToolStripMenuItem
+            // 
+            this.eSCCloseToolStripMenuItem.Name = "eSCCloseToolStripMenuItem";
+            this.eSCCloseToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.eSCCloseToolStripMenuItem.Text = "ESC - Close";
+            // 
             // howToPlayButton
             // 
             this.howToPlayButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.howToPlayButton.Location = new System.Drawing.Point(213, 491);
+            this.howToPlayButton.Location = new System.Drawing.Point(202, 430);
             this.howToPlayButton.Name = "howToPlayButton";
             this.howToPlayButton.Size = new System.Drawing.Size(94, 22);
             this.howToPlayButton.TabIndex = 72;
@@ -3679,7 +3678,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(425, 524);
+            this.ClientSize = new System.Drawing.Size(425, 463);
             this.Controls.Add(this.howToPlayButton);
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.Label_ResultMessage);
@@ -4131,10 +4130,10 @@
         private System.Windows.Forms.Button closeButton;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem keybindsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cRTLZHintToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cTRLRStartOverToolStripMenuItem;
         private System.Windows.Forms.Button howToPlayButton;
+        private System.Windows.Forms.ToolStripMenuItem cTRLZHintToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cTRLRStartOverToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem eSCCloseToolStripMenuItem;
     }
 }
 

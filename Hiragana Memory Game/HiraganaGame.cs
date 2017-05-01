@@ -70,6 +70,7 @@ namespace Hiragana_Memory_Game
 
         public HiraganaGame()
         {
+            
             InitializeComponent();
             //The following was written by Shawn Murrish:
             //Testing Please remove
@@ -119,6 +120,11 @@ namespace Hiragana_Memory_Game
             this.waTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
             this.woTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
             this.nTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.TextBox_KeyDown );
+            // Made the Close button keybound to ESC by setting it
+            // equal to the Cancel Button
+            // Written by Brandon Miller
+            this.CancelButton = closeButton;
+ 
             //End written by Shawn Murrish.
 
             //The following was written by Irene Wang:
@@ -210,6 +216,17 @@ namespace Hiragana_Memory_Game
             {
                 //Transitioning to the next tab.
                 tabControl1.SelectedIndex += 1;
+                // Code below will make sure the textbox in the next tab will be selected once 
+                // the player hits the check box in the current tab they are in
+                // Written by Brandon Miller
+                foreach (Control control in tabControl1.SelectedTab.Controls)
+                {
+                    if (control.Name.Contains("TextBox"))
+                    {
+                        TextBox tb = control as TextBox;
+                        tb?.Select();
+                    }
+                }
             }
             //Otherwise displays the Finish Game message and final score, refreshing the game.
             else
@@ -1817,7 +1834,7 @@ namespace Hiragana_Memory_Game
             */
         }
         #endregion -- Check Button Event --
-
+        // Will display the image assosciated with the first few letters of the syllabl when clicked or when the keybind is used
         #region -- Hint Button Event (written by Patrick Condon & Brandon Miller) --
         private void noHintButton_Click(object sender, EventArgs e)
         {
@@ -2062,6 +2079,11 @@ namespace Hiragana_Memory_Game
         private void HiraganaGame_Load(object sender, EventArgs e)
         {
            MessageBox.Show(string.Format("Welcome, {0}! Enjoy this Hiragana Memory Game.", Environment.UserName));
+            // Added code below to select the first textbox of the game "noTextBox" when the form loads
+            // and after the greeting message
+            //Written by Brandon Miller
+            noTextBox.Select();
+
             // RichTextBox_HowToPlay.Text = "Instructions:" + Environment.NewLine;
             // +
             // "Enter the hiragana pronunciation in the textbox above. Click [Check] or press the <Enter> key to move on to the next question." +
@@ -2608,10 +2630,14 @@ namespace Hiragana_Memory_Game
         {
             MessageBox.Show(string.Format( "Instructions:" + Environment.NewLine + "Enter the hiragana pronunciation in the textbox below the image of the character."
                 + Environment.NewLine + "Each correct answer yeilds 1 point. The maximum score is 46." + Environment.NewLine
-                + "Click hint for an image corresponding to the first syllable pronunciation."));
-            
-
-
+                + "Click hint for an image corresponding to the first syllable pronunciation." + Environment.NewLine
+                + "Good Luck!!" + Environment.NewLine
+                + "" + Environment.NewLine
+                + "" + Environment.NewLine
+                + "Keybinds:" + Environment.NewLine
+                + "CTRL + Z will display the hint image for the Character." + Environment.NewLine
+                + "CTRL + R will restart the game as well as reset your score back to zero." + Environment.NewLine
+                + "ESC will close the game"));
         }
     }
 }
