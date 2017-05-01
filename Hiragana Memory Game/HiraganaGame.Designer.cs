@@ -3610,9 +3610,8 @@
             this.Label_ResultMessage.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_ResultMessage.Location = new System.Drawing.Point(28, 123);
             this.Label_ResultMessage.Name = "Label_ResultMessage";
-            this.Label_ResultMessage.Size = new System.Drawing.Size(49, 22);
+            this.Label_ResultMessage.Size = new System.Drawing.Size(0, 22);
             this.Label_ResultMessage.TabIndex = 69;
-            this.Label_ResultMessage.Text = "XXX";
             // 
             // closeButton
             // 
