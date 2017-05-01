@@ -2624,6 +2624,7 @@ namespace Hiragana_Memory_Game
         }
         // Added How To Play button back in since we removed the text going in the richtext box explaining how to play
         // Will display to the player how to play the game when clicked
+        // Also indicates the keybinds and their functions
         // Written by Brandon Miller
         private void howToPlayButton_Click(object sender, EventArgs e)
         {
