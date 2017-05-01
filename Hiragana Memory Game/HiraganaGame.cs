@@ -380,7 +380,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _te_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "te")
             //{
             //    tabControl1.SelectedTab = tabPage6;
@@ -432,7 +432,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _shi_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "shi")
             //{
             //    tabControl1.SelectedTab = tabPage7;
@@ -467,7 +467,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _tsu_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "tsu")
             //{
             //    tabControl1.SelectedTab = tabPage8;
@@ -502,7 +502,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _ne_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "ne")
             //{
             //    tabControl1.SelectedTab = tabPage9;
@@ -537,7 +537,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _ho_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "ho")
             //{
             //    tabControl1.SelectedTab = tabPage10;
@@ -572,7 +572,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _sa_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "sa")
             //{
             //    tabControl1.SelectedTab = tabPage11;
@@ -607,7 +607,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _chi_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "chi")
             //{
             //    tabControl1.SelectedTab = tabPage12;
@@ -642,7 +642,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _nu_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "nu")
             //{
             //    tabControl1.SelectedTab = tabPage13;
@@ -677,7 +677,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _he_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "he")
             //{
             //    tabControl1.SelectedTab = tabPage14;
@@ -712,7 +712,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _mo_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "mo")
             //{
             //    tabControl1.SelectedTab = tabPage15;
@@ -747,7 +747,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _ta_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "ta")
             //{
             //    tabControl1.SelectedTab = tabPage16;
@@ -782,7 +782,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _ni_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "ni")
             //{
             //    tabControl1.SelectedTab = tabPage17;
@@ -817,7 +817,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _hu_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "hu")
             //{
             //    tabControl1.SelectedTab = tabPage18;
@@ -852,7 +852,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _me_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "me")
             //{
             //    tabControl1.SelectedTab = tabPage19;
@@ -887,7 +887,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _yo_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "yo")
             //{
             //    tabControl1.SelectedTab = tabPage20;
@@ -922,7 +922,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _ke_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "ke")
             //{
             //    tabControl1.SelectedTab = tabPage21;
@@ -957,7 +957,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _so_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "so")
             //{
             //    tabControl1.SelectedTab = tabPage22;
@@ -992,7 +992,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _u_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "u")
             //{
             //    tabControl1.SelectedTab = tabPage23;
@@ -1027,7 +1027,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _yu_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "yu")
             //{
             //    tabControl1.SelectedTab = tabPage24;
@@ -1062,7 +1062,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _wa_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "wa")
             //{
             //    tabControl1.SelectedTab = tabPage25;
@@ -1097,7 +1097,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _mu_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "mu")
             //{
             //    tabControl1.SelectedTab = tabPage26;
@@ -1132,7 +1132,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _ha_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "ha")
             //{
             //    tabControl1.SelectedTab = tabPage27;
@@ -1167,7 +1167,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _ya_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "ya")
             //{
             //    tabControl1.SelectedTab = tabPage28;
@@ -1202,7 +1202,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _ri_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "ri")
             //{
             //    tabControl1.SelectedTab = tabPage29;
@@ -1237,7 +1237,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _wo_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "wo")
             //{
             //    tabControl1.SelectedTab = tabPage30;
@@ -1273,7 +1273,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _ma_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "ma")
             //{
             //    tabControl1.SelectedTab = tabPage31;
@@ -1308,7 +1308,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _ra_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "ra")
             //{
             //    tabControl1.SelectedTab = tabPage32;
@@ -1343,7 +1343,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _ru_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "ru")
             //{
             //    tabControl1.SelectedTab = tabPage33;
@@ -1378,7 +1378,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _se_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "se")
             //{
             //    tabControl1.SelectedTab = tabPage34;
@@ -1413,7 +1413,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _o_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "o")
             //{
             //    tabControl1.SelectedTab = tabPage35;
@@ -1448,7 +1448,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _e_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "e")
             //{
             //    tabControl1.SelectedTab = tabPage36;
@@ -1483,7 +1483,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _ku_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "ku")
             //{
             //    tabControl1.SelectedTab = tabPage37;
@@ -1518,7 +1518,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _i_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "i")
             //{
             //    tabControl1.SelectedTab = tabPage38;
@@ -1553,7 +1553,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _re_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "re")
             //{
             //    tabControl1.SelectedTab = tabPage39;
@@ -1588,7 +1588,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _mi_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "mi")
             //{
             //    tabControl1.SelectedTab = tabPage40;
@@ -1623,7 +1623,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _ro_);
             //End written by Irene Wang.
 
-            /* The following was written by Patrick Condon:
+            /* The following was written by Brandon Miller:
             //if (teTextBox.Text == "ro")
             //{
             //    tabControl1.SelectedTab = tabPage41;
@@ -1658,7 +1658,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _ko_);
             //End written by Irene Wang.
 
-            /*The following was written by Patrick Condon:
+            /*The following was written by Brandon Miller:
             //if (teTextBox.Text == "ko")
             //{
             //    tabControl1.SelectedTab = tabPage42;
@@ -1693,7 +1693,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _to_);
             //End written by Irene Wang.
 
-            /*The following was written by Patrick Condon:
+            /*The following was written by Brandon Miller:
             //if (teTextBox.Text == "to")
             //{
             //    tabControl1.SelectedTab = tabPage43;
@@ -1728,7 +1728,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _hi_);
             //End written by Irene Wang.
 
-            /*The following was written by Patrick Condon:
+            /*The following was written by Brandon Miller:
             //if (teTextBox.Text == "hi")
             //{
             //    tabControl1.SelectedTab = tabPage44;
@@ -1763,7 +1763,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _na_);
             //End written by Irene Wang.
 
-            /*The following was written by Patrick Condon:
+            /*The following was written by Brandon Miller:
             //if (teTextBox.Text == "na")
             //{
             //    tabControl1.SelectedTab = tabPage45;
@@ -1798,7 +1798,7 @@ namespace Hiragana_Memory_Game
             VerifyingAnswer(sender, userInput, _n_);
             //End written by Irene Wang.
 
-            /*The following was written by Patrick Condon:
+            /*The following was written by Brandon Miller:
             //if (teTextBox.Text == "n")
             //{
             //    tabControl1.SelectedTab = tabPage46;
@@ -1818,7 +1818,7 @@ namespace Hiragana_Memory_Game
         }
         #endregion -- Check Button Event --
 
-        #region -- Hint Button Event (written by Patrick Condon) --
+        #region -- Hint Button Event (written by Patrick Condon & Brandon Miller) --
         private void noHintButton_Click(object sender, EventArgs e)
         {
             noPictureBox.Visible = true;
@@ -1848,7 +1848,7 @@ namespace Hiragana_Memory_Game
         {
             kaPictureBox.Visible = true;
         }
-
+        // Begin written by Brandon Miller
         private void shiHintButton_Click(object sender, EventArgs e)
         {
             shiPictureBox.Visible = true;
@@ -2048,6 +2048,7 @@ namespace Hiragana_Memory_Game
         {
             nPictureBox.Visible = true;
         }
+        // End Written by Brandon Miller
 
         #endregion -- Hint Button Event (written by Patrick Condon) --
 
@@ -2060,12 +2061,18 @@ namespace Hiragana_Memory_Game
         /// <param name="e"></param>
         private void HiraganaGame_Load(object sender, EventArgs e)
         {
-            MessageBox.Show(string.Format("Welcome, {0}! Enjoy this Hiragana Memory Game.", Environment.UserName));
-            RichTextBox_HowToPlay.Text = "Instructions:" + Environment.NewLine
-                + "Enter the hiragana pronunciation in the textbox above. Click [Check] or press the <Enter> key to move on to the next question." + Environment.NewLine
-                + "Each correct answer yields 1 point. The maximum score is 46." + Environment.NewLine
-                + "Click [Hint] or press <CTRL+Z> to display an image corresponding to the first syllable pronunciation." + Environment.NewLine
-                + "To restart the game from the beginning, click [Start Over] or press <CTRL+R>.";
+           MessageBox.Show(string.Format("Welcome, {0}! Enjoy this Hiragana Memory Game.", Environment.UserName));
+            // RichTextBox_HowToPlay.Text = "Instructions:" + Environment.NewLine;
+            // +
+            // "Enter the hiragana pronunciation in the textbox above. Click [Check] or press the <Enter> key to move on to the next question." +
+            // Environment.NewLine
+            // + "Each correct answer yields 1 point. The maximum score is 46." +
+            //  Environment.NewLine;
+            // Commented out the text in the richtext box that explains the key bindings
+            // Moved "keybind" display to a menu bar
+            // Done by Brandon Miller
+            // + "Click [Hint] or press <CTRL+Z> to display an image corresponding to the first syllable pronunciation." + Environment.NewLine
+            // + "To restart the game from the beginning, click [Start Over] or press <CTRL+R>.";
         }
 
         /// <summary>
@@ -2586,6 +2593,25 @@ namespace Hiragana_Memory_Game
                     startOverButton_Click( this.startOverButton, e );
                 }
             }
+        }
+        // Closes the program when player clicks the button
+        // Needs to have keybind written for 'ESC'
+        // Written by Brandon Miller
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+        // Added How To Play button back in since we removed/commented out the text going in the richtext box explaining how to play
+        // Will display to the player how to play the game when clicked
+        // Written by Brandon Miller
+        private void howToPlayButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(string.Format( "Instructions:" + Environment.NewLine + "Enter the hiragana pronunciation in the textbox below the image of the character."
+                + Environment.NewLine + "Each correct answer yeilds 1 point. The maximum score is 46." + Environment.NewLine
+                + "Click hint for an image corresponding to the first syllable pronunciation."));
+            
+
+
         }
     }
 }

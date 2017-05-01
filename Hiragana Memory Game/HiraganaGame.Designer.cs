@@ -312,6 +312,13 @@
             this.startOverButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.Label_ResultMessage = new System.Windows.Forms.Label();
+            this.closeButton = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.keybindsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cRTLZHintToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cTRLRStartOverToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.howToPlayButton = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.noPictureBox)).BeginInit();
@@ -405,6 +412,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.naPictureBox)).BeginInit();
             this.tabPage46.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nPictureBox)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -455,7 +463,7 @@
             this.tabControl1.Controls.Add(this.tabPage44);
             this.tabControl1.Controls.Add(this.tabPage45);
             this.tabControl1.Controls.Add(this.tabPage46);
-            this.tabControl1.Location = new System.Drawing.Point(18, 281);
+            this.tabControl1.Location = new System.Drawing.Point(24, 219);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(388, 201);
@@ -3548,7 +3556,7 @@
             // 
             this.scoreLabel.AutoSize = true;
             this.scoreLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scoreLabel.Location = new System.Drawing.Point(23, 233);
+            this.scoreLabel.Location = new System.Drawing.Point(24, 435);
             this.scoreLabel.Name = "scoreLabel";
             this.scoreLabel.Size = new System.Drawing.Size(65, 24);
             this.scoreLabel.TabIndex = 63;
@@ -3557,10 +3565,10 @@
             // RichTextBox_HowToPlay
             // 
             this.RichTextBox_HowToPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RichTextBox_HowToPlay.Location = new System.Drawing.Point(22, 49);
+            this.RichTextBox_HowToPlay.Location = new System.Drawing.Point(24, 100);
             this.RichTextBox_HowToPlay.Name = "RichTextBox_HowToPlay";
             this.RichTextBox_HowToPlay.ReadOnly = true;
-            this.RichTextBox_HowToPlay.Size = new System.Drawing.Size(378, 156);
+            this.RichTextBox_HowToPlay.Size = new System.Drawing.Size(378, 103);
             this.RichTextBox_HowToPlay.TabIndex = 64;
             this.RichTextBox_HowToPlay.Text = "";
             // 
@@ -3568,7 +3576,7 @@
             // 
             this.Scoreboard.Enabled = false;
             this.Scoreboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Scoreboard.Location = new System.Drawing.Point(94, 223);
+            this.Scoreboard.Location = new System.Drawing.Point(27, 467);
             this.Scoreboard.Name = "Scoreboard";
             this.Scoreboard.Size = new System.Drawing.Size(57, 46);
             this.Scoreboard.TabIndex = 66;
@@ -3578,7 +3586,7 @@
             // startOverButton
             // 
             this.startOverButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.startOverButton.Location = new System.Drawing.Point(295, 229);
+            this.startOverButton.Location = new System.Drawing.Point(118, 440);
             this.startOverButton.Name = "startOverButton";
             this.startOverButton.Size = new System.Drawing.Size(105, 32);
             this.startOverButton.TabIndex = 67;
@@ -3590,7 +3598,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Constantia", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(37, 9);
+            this.label2.Location = new System.Drawing.Point(37, 40);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(351, 36);
             this.label2.TabIndex = 68;
@@ -3600,16 +3608,80 @@
             // 
             this.Label_ResultMessage.AutoSize = true;
             this.Label_ResultMessage.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_ResultMessage.Location = new System.Drawing.Point(20, 491);
+            this.Label_ResultMessage.Location = new System.Drawing.Point(28, 142);
             this.Label_ResultMessage.Name = "Label_ResultMessage";
-            this.Label_ResultMessage.Size = new System.Drawing.Size(0, 22);
+            this.Label_ResultMessage.Size = new System.Drawing.Size(49, 22);
             this.Label_ResultMessage.TabIndex = 69;
+            this.Label_ResultMessage.Text = "XXX";
+            // 
+            // closeButton
+            // 
+            this.closeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.closeButton.Location = new System.Drawing.Point(291, 440);
+            this.closeButton.Name = "closeButton";
+            this.closeButton.Size = new System.Drawing.Size(105, 32);
+            this.closeButton.TabIndex = 70;
+            this.closeButton.Text = "Close";
+            this.closeButton.UseVisualStyleBackColor = true;
+            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(425, 24);
+            this.menuStrip1.TabIndex = 71;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // menuToolStripMenuItem
+            // 
+            this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.keybindsToolStripMenuItem});
+            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
+            this.menuToolStripMenuItem.Text = "Menu";
+            // 
+            // keybindsToolStripMenuItem
+            // 
+            this.keybindsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cRTLZHintToolStripMenuItem,
+            this.cTRLRStartOverToolStripMenuItem});
+            this.keybindsToolStripMenuItem.Name = "keybindsToolStripMenuItem";
+            this.keybindsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.keybindsToolStripMenuItem.Text = "Keybinds";
+            // 
+            // cRTLZHintToolStripMenuItem
+            // 
+            this.cRTLZHintToolStripMenuItem.Name = "cRTLZHintToolStripMenuItem";
+            this.cRTLZHintToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.cRTLZHintToolStripMenuItem.Text = "CRTL + Z - Hint";
+            // 
+            // cTRLRStartOverToolStripMenuItem
+            // 
+            this.cTRLRStartOverToolStripMenuItem.Name = "cTRLRStartOverToolStripMenuItem";
+            this.cTRLRStartOverToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.cTRLRStartOverToolStripMenuItem.Text = "CTRL + R - Start Over";
+            // 
+            // howToPlayButton
+            // 
+            this.howToPlayButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.howToPlayButton.Location = new System.Drawing.Point(213, 491);
+            this.howToPlayButton.Name = "howToPlayButton";
+            this.howToPlayButton.Size = new System.Drawing.Size(94, 22);
+            this.howToPlayButton.TabIndex = 72;
+            this.howToPlayButton.Text = "How To Play!";
+            this.howToPlayButton.UseVisualStyleBackColor = true;
+            this.howToPlayButton.Click += new System.EventHandler(this.howToPlayButton_Click);
             // 
             // HiraganaGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(425, 524);
+            this.Controls.Add(this.howToPlayButton);
+            this.Controls.Add(this.closeButton);
             this.Controls.Add(this.Label_ResultMessage);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.startOverButton);
@@ -3617,7 +3689,9 @@
             this.Controls.Add(this.RichTextBox_HowToPlay);
             this.Controls.Add(this.scoreLabel);
             this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.menuStrip1);
             this.KeyPreview = true;
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "HiraganaGame";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hiragana Memory Game";
@@ -3762,6 +3836,8 @@
             this.tabPage46.ResumeLayout(false);
             this.tabPage46.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nPictureBox)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4052,6 +4128,13 @@
         private System.Windows.Forms.Button startOverButton;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label Label_ResultMessage;
+        private System.Windows.Forms.Button closeButton;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem keybindsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cRTLZHintToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cTRLRStartOverToolStripMenuItem;
+        private System.Windows.Forms.Button howToPlayButton;
     }
 }
 
