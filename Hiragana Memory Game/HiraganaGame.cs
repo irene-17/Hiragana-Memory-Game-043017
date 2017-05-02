@@ -1835,7 +1835,7 @@ namespace Hiragana_Memory_Game
         }
         #endregion -- Check Button Event --
         // Will display the image assosciated with the first few letters of the syllable when clicked or when the keybind is used
-        #region -- Hint Button Event (written by Patrick Condon & Brandon Miller) --
+        #region -- Hint Button Event (written by Brandon Miller & Patrick Condon) --
         private void noHintButton_Click(object sender, EventArgs e)
         {
             noPictureBox.Visible = true;
@@ -2067,7 +2067,7 @@ namespace Hiragana_Memory_Game
         }
         // End Written by Brandon Miller
 
-        #endregion -- Hint Button Event (written by Patrick Condon & Brandon Miller) --
+        #endregion -- Hint Button Event (written by Brandon Miller & Patrick Condon) --
 
         /// <summary>
         /// Initial load of the game with the welcome message and instructions.
@@ -2617,6 +2617,7 @@ namespace Hiragana_Memory_Game
         }
         // Closes the program when player clicks the button
         // Needs to have keybind written for 'ESC'
+        // Keybind has been created
         // Written by Brandon Miller
         private void closeButton_Click(object sender, EventArgs e)
         {
